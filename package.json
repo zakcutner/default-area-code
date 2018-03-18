@@ -1,0 +1,20 @@
+{
+  "name": "default-area-code",
+  "version": "1.0.0",
+  "description": "Automatically adds a default area code to Google contacts",
+  "repository": "github:zakcutner/google-area-code.git",
+  "author": "Zak Cutner (https://zakcutner.uk)",
+  "config": {
+    "default_code" : "GB",
+    "hostname": "localhost",
+    "port": 3000
+  },
+  "scripts": {
+    "authorise": "node authorise.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "googleapis": "^27.0.0",
+    "libphonenumber-js": "^1.1.4"
+  }
+}
