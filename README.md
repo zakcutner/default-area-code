@@ -1,4 +1,7 @@
+##### NOT CURRENTLY WORKING – PLEASE CONTACT ME IF YOU REQUIRE THIS PROGRAM.
+
 ## Default Area Code
+
 #### Automatically adds a default area code to phone numbers in Google Contacts. This is particularly useful if contacts are being added from several sources to ensure consistency.
 
 ### How it works...
