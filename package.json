@@ -6,6 +6,8 @@
   "author": "Zak Cutner (https://zakcutner.uk)",
   "config": {
     "default_code" : "GB",
+    "hostname": "localhost",
+    "port": 3000
   },
   "scripts": {
     "authorise": "node authorise.js",
