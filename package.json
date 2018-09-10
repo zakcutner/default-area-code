@@ -2,7 +2,7 @@
   "name": "default-area-code",
   "version": "1.0.0",
   "description": "Automatically adds a default area code to Google contacts",
-  "repository": "github:zakcutner/google-area-code.git",
+  "repository": "github:zakcutner/default-area-code.git",
   "author": "Zak Cutner (https://zakcutner.uk)",
   "config": {
     "default_code" : "GB",
