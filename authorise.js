@@ -1,5 +1,5 @@
-const HOSTNAME = 'localhost'
-const PORT = 3000
+const HOSTNAME = process.env.npm_package_config_hostname || 'localhost'
+const PORT = process.env.npm_package_config_port || 3000
 
 const keys = require('./keys')
 
