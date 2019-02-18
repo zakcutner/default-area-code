@@ -1,4 +1,4 @@
-**Copyright &copy; 2018 Zak Cutner**
+**Copyright &copy; 2018-2019 Zak Cutner**
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
