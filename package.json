@@ -4,17 +4,19 @@
   "description": "Automatically adds a default area code to Google contacts",
   "repository": "github:zakcutner/default-area-code.git",
   "author": "Zak Cutner (https://zakcutner.uk)",
-  "config": {
-    "default_code": "GB",
-    "hostname": "localhost",
-    "port": 3000
-  },
   "scripts": {
-    "authorise": "node authorise.js",
+    "lint": "eslint .",
     "start": "node app.js"
   },
   "dependencies": {
-    "googleapis": "^27.0.0",
-    "libphonenumber-js": "^1.1.4"
+    "dotenv": "^8.2.0",
+    "googleapis": "^47.0.0",
+    "libphonenumber-js": "^1.7.31"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
   }
 }
