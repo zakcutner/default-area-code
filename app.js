@@ -37,7 +37,7 @@ connections.then(connections => {
         phoneNumber.value =
           number.country == process.env.DEFAULT_CODE
             ? number.formatNational()
-            : number.formatNational();
+            : number.formatInternational();
       } catch (e) {
         console.error(
           `Cannot update contact "${connection.names[0].displayName}" with number "${phoneNumber.value}": ${e.message}`
